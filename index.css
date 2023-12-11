@@ -11,6 +11,10 @@ button{
     
     color: #fab800;
     background-color: fab800;
+    
+    width: 100px;
+    height: 50px;
+    margin: 10px;
 
 } 
 h1{
@@ -19,42 +23,51 @@ h1{
 .row
 {
     background-color: #fab800;
+    
 }
 
 #head  /* header of the table row 1 */
 {
-    color: azure;
+    color: black;
     background-color: #ff5e6c;
 }
 
 body  /*   *    can also be used to select all */
 {
-    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-color:bisque;
     
     background-size: cover;
     background-position: center;
+    border: 10px solid black;
+    padding: 20px;
     
 }
 td{
-    color: aliceblue;
-}
-
-table,tr
-{
-    border-color: rgb(255, 2, 2);
-    border-style: solid;
-    padding: 10px;  
-    
-    margin-left: 630px;
-    margin-top: 200px;
-    text-align: center;
-    
+    color: black;
+    height: 20px;
 }
 
 table
 {
+    border-color: rgb(255, 2, 2);
+    border-style: solid;
+    padding: 0px;  
+    
+    
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+    
     border-width: 8px;
+    padding: 100px;
+    border: 2px solid red;
 }
+
 tr{
     border-width: 8px;
+    font-size: large ;
+    
+    height: 40px;
 }
+
