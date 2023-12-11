@@ -1,0 +1,60 @@
+
+/*
+    css for the table content
+*/
+p{
+    text-align: left;
+    color: orange;
+    background-color: azure;
+}
+button{
+    
+    color: #fab800;
+    background-color: fab800;
+
+} 
+h1{
+    background-color: blanchedalmond;
+}
+.row
+{
+    background-color: #fab800;
+}
+
+#head  /* header of the table row 1 */
+{
+    color: azure;
+    background-color: #ff5e6c;
+}
+
+body  /*   *    can also be used to select all */
+{
+    background-image: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+td{
+    color: aliceblue;
+}
+
+table,tr
+{
+    border-color: rgb(255, 2, 2);
+    border-style: solid;
+    padding: 10px;  
+    
+    margin-left: 630px;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+table
+{
+    border-width: 8px;
+}
+tr{
+    border-width: 8px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>REGISTERATION FORM</H1>
+    <form action="file.php" method="get">
+        <div>
+            <label for="fname">First Name : <input type="text" placeholder="your name" id="fname" name="firstName"></label>
+        </div>
+        <!--last name-->
+        <div>
+            <br>
+            <label for="lname">Last Name : <input type="text" placeholder="your lastname" id="lname" name="lastName">
+            </label>
+        </div>
+        <div>
+            <br>
+            <label for="">Birth Date : <input type="date"></label>
+            
+        </div>
+        
+        
+        <div>
+            <br>
+            <label for="">Age : <input type="number" id="age" name="userAge"></label>
+        </div>
+
+        <!--Check Box very simple just change type to check box -->
+        <div>
+            <h3>Select the language you know</h3>
+            <label for="">Java <input type="checkbox"></label>
+            <br>
+            <label for="">HTML <input type="checkbox"></label>
+            <br>
+            <label for="">Javascript <input type="checkbox"></label>
+            <br>
+            <label for="">React Js <input type="checkbox"></label>
+            <br>
+            <label for="">Python <input type="checkbox"></label>
+        </div>
+
+        <div>
+            <!--Learning radio button (imp=must provide same name attribute otherwise both will be selected..)-->
+            <br>
+            Select Gender : 
+            Male : <input type="radio" checked="true" name="gender">
+            Female: <input type="radio" name="gender">
+        </div>
+
+        <!--learning select option-->
+
+        <div>
+            <br>
+            Select Your Age: 
+            <select >
+               <option selected>select</option>
+               <option>18</option>
+               <option>19</option>
+               <option>20</option>
+               <option>21</option>
+               <option>22</option>
+               <option>23</option>
+            </select>
+        </div>
+
+        <!--another one of select   optgroup-->
+        <div>
+            <br>
+            Select The Course
+            <select>
+                <optgroup label="Web Development"></optgroup>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JAVASCRIPT</option>
+                <option>BOOTSTRAP</option>
+
+                <optgroup label="Programming Language"></optgroup>
+                <option >Java</option>
+                <option>Python</option>
+                
+            </select>
+
+        </div>
+            </form>
+</body>
+</html>
