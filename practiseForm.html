@@ -4,87 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <Link rel="stylesheet" href="./regForm.css"></Link>
 </head>
 <body>
     <H1>REGISTERATION FORM</H1>
-    <form action="file.php" method="get">
-        <div>
-            <label for="fname">First Name : <input type="text" placeholder="your name" id="fname" name="firstName"></label>
-        </div>
-        <!--last name-->
-        <div>
-            <br>
-            <label for="lname">Last Name : <input type="text" placeholder="your lastname" id="lname" name="lastName">
-            </label>
-        </div>
-        <div>
-            <br>
-            <label for="">Birth Date : <input type="date"></label>
+    
+    <div>
+        <!--for full name-->
+        <label for="fname" class="content1"><h2 >Full Name</h2><input type="text" size="40%" placeholder="Enter full name" id="fname" ></label>
             
-        </div>
+        <!--email-->
+        <label for="email" class="content2"><h2 >Enter Email</h2><input type="email" size="40%" placeholder="Enter your email" id="email" ></label>
+
+        <br><br>
         
-        
-        <div>
-            <br>
-            <label for="">Age : <input type="number" id="age" name="userAge"></label>
-        </div>
 
-        <!--Check Box very simple just change type to check box -->
-        <div>
-            <h3>Select the language you know</h3>
-            <label for="">Java <input type="checkbox"></label>
+            <!--mobile-->
+            <label for="mobile"class="content"><b>Mobile Number</b><br><br><input type="number" maxlength="10" placeholder="Enter your mobile no." id="mobile"> </label>
+            <br><br>
+            <!--birth date-->
+            <label for="bdate" class="content">Birth Date <br><br><input type="date"  id="bdate"></label>
+            <br><br>
+            <label for="" class="content">Gender</label>
             <br>
-            <label for="">HTML <input type="checkbox"></label>
-            <br>
-            <label for="">Javascript <input type="checkbox"></label>
-            <br>
-            <label for="">React Js <input type="checkbox"></label>
-            <br>
-            <label for="">Python <input type="checkbox"></label>
-        </div>
-
-        <div>
-            <!--Learning radio button (imp=must provide same name attribute otherwise both will be selected..)-->
-            <br>
-            Select Gender : 
-            Male : <input type="radio" checked="true" name="gender">
-            Female: <input type="radio" name="gender">
-        </div>
-
-        <!--learning select option-->
-
-        <div>
-            <br>
-            Select Your Age: 
-            <select >
-               <option selected>select</option>
-               <option>18</option>
-               <option>19</option>
-               <option>20</option>
-               <option>21</option>
-               <option>22</option>
-               <option>23</option>
-            </select>
-        </div>
-
-        <!--another one of select   optgroup-->
-        <div>
-            <br>
-            Select The Course
-            <select>
-                <optgroup label="Web Development"></optgroup>
-                <option>HTML</option>
-                <option>CSS</option>
-                <option>JAVASCRIPT</option>
-                <option>BOOTSTRAP</option>
-
-                <optgroup label="Programming Language"></optgroup>
-                <option >Java</option>
-                <option>Python</option>
+                <label for="" style="font-size:x-large;">Male</label>
+                <input type="radio" name="gen" id="male" style="width: 20px;">
+                <label style="font-size: x-large; for="" >Female</label>
+                <input type="radio" name="gen" id="female" style="width: 20px;" >
                 
+            <br><br><br>
+            <label for="" class="content">Address <br><br><input type="text" placeholder="Enter your address"></label>
+            <br><br>
+            <label class="content" >Country </label>
+            <br><br>
+            <select name="" id="sel">
+                <option value="" >Select</option>
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">New Zeland</option>
+                <option value="">Canada</option>
+                <option value="">UK</option>
+                <option value="">London</option>
             </select>
-
-        </div>
-            </form>
+                <br><br>
+            <label for="" class="content">Postal <br><br><input type="number" maxlength="6" placeholder="enter your postal code"></label>
+            <br><br><br><br>
+            <input type="submit" id="submit">
+                
+        </table>
+    </div>
+    
 </body>
 </html>
