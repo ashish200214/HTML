@@ -1,0 +1,52 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:azure ;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+.container
+{
+    height: 500px;
+    width:500px;
+    border-radius: 10px;
+    border:1px solid red;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    /* gap:5px; */
+    justify-content: center;
+    align-items:center;
+    display:-ms-inline-grid;
+    grid-template-columns:auto;
+    
+    
+}
+
+
+
+.child
+{   
+    
+    background-color:brown;
+    border: 1px solid red;
+    color:white;
+    
+}
+
+.child1
+{
+    
+    background-color:brown;
+    border: 1px solid black;
+    color:white;
+
+    grid-column-start: 1;
+    grid-column-end:   3;
+}

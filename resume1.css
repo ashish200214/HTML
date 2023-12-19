@@ -1,89 +1,72 @@
-body
+.sidebar
 {
-     
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+
 }
 
-/* .tablehead
+
+.text
 {
-     background-color: black;
-     padding: 20px;
-     width: 100px;
-     height: 5px;
-     color: snow;
-} */
-
-
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid black;    
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    padding-top: 45px;
+}
 
 
 .image
-{   
-    padding: 0px;
-    margin-top: 0px;
-}
-
-#name
-{
-    margin-top: 0%;
-    color: snow;
-     
-    width: 150px
-}
-
-tr
-{
-    padding: 20px;
+{    
+   position: relative;
+   top:10px;
 }
 
 
-.tablehead
+*
 {
-    padding: 20px;
-    background-color: yellow;
-    width: 112Px;
-    height: 100px;
+    box-sizing: border-box;
+}
+
+.name
+{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    
+    border-radius: 2px;
+    position: relative;
+    bottom:25px;
 
 }
 
-#name1
+.name>h2
 {
+    margin: 0px;
     text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    margin-left: 200px;
+    position: relative;
+    
 }
 
-#backend
+section>div
 {
-    text-align: center;
+    margin: 0px;
+    position: relative;
+    bottom: 25px;
+}
+
+
+
+#icon{
     font-size: 40px;
-    font-weight: normal;
-    color: grey;
-    margin-left: 200px;
 }
 
-#abm
-{
-    text-align: center;
-    margin-left: 200px;
-}
-
-#para
-{
-    padding: 20px;
-    margin-left: 200px;
-}
-
-.image{
-    padding-top: 0px;
-    margin-top: 0px;
-    padding-top: 10px;
-
-}
-
-
-.tab{
-    margin-top: 0%;
-    padding-bottom: 100%;
-    
-    
-}
