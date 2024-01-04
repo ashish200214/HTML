@@ -1,0 +1,112 @@
+.main-container{
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: tomato;
+    
+}
+
+.text-white{
+    color: white;
+}
+
+.main-container h1,h3{
+    padding: 10px;
+    margin: 0px;
+}
+
+div.middle{
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+.text-red{
+    color: tomato;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.middle{
+    display: flex;
+}
+
+.bg-red{
+    background-color: tomato;
+}
+
+
+/* for anchor tag */
+.underline-disable{
+    text-decoration: none;
+}
+
+div.button-div{
+    width: 20%;
+    margin: 30px;
+    
+}
+
+div.button-div button{
+    width: 270px;
+    border: 1px solid tomato;
+    border-radius: 20px;
+    height: 50px;
+    margin: 5px;
+}
+
+/* div1 is the inner container ( text div) of the middle  */
+.div1{
+    width: 80%;
+    margin: 20px;
+    
+}
+
+.div h1,p,h2{
+    padding-left: 10px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+div.button-div a{
+    font-size: 28px;
+}
+
+.active-stylesheet2
+{
+    background-color: white;
+    color: tomato;
+}
+
+.div1 p{
+    font-size: 22px;
+}
+.div1 h1{
+    font-size: 40px;
+}
+.div1 h2{
+    font-size: 30px;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.sidebar h4{
+    padding: 10px;
+}
+
+footer{
+    line-height: 20px;
+    margin: 10px;
+    padding:10px
+}

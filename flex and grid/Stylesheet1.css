@@ -1,0 +1,126 @@
+.main-container{
+    max-width: 100%;
+    height: 800px;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.text-white{
+    color: white;
+
+}
+
+.bg-blue{
+    background-color: rgb(61, 185, 227);
+}
+
+
+.inline-block-class{
+    display:inline-block;
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'consolas', Courier, monospace;
+}
+
+header{
+    padding: 25px;
+    border-radius:5px ;
+}
+
+header h1,p{
+    margin: 0px;
+    
+}
+
+header h1{
+    font-size: 48px;
+}
+
+
+.sidebar{
+    width:20%;
+    padding: 20px;
+    height: 500px;
+    margin-top: 20px;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+article{
+    width: 60%;
+}
+
+article h1{
+    font-size: 50px;
+    line-height: 40px;
+}
+
+article h2{
+    font-size: 35px;
+}
+
+article p{
+    font-size: 25px;
+}
+
+.button-div{
+    width: 20%;
+    margin-top:20px ;
+}
+
+.button{
+    width:205px;
+    margin: 2px;
+    border-radius: 5px;
+    border:1px solid green;
+    padding: 5px;
+    text-align: start;
+
+}
+
+.text-bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-div a{
+    text-decoration: none;
+    color: black;
+
+    
+    
+}
+
+.button-div button:hover{
+    background-color: green;
+    
+}
+
+.button-div button a:hover{
+    color: white;
+}
+
+
+.button-div button a:active
+{
+    color: white;
+
+}
+
+
+.button-div button:first-child {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+

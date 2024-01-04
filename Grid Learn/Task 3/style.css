@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+
+    width: 60vw;
+    height: 30  vh;
+    border: 2px solid grey;
+    margin: 1px auto;
+}
+
+.child
+{
+    margin: 10px;
+    height: 3rem;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    padding:0.5em;
+    border-radius: 15px;
+    
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.child1{
+    grid-area:1/1/2/13;
+}
+ .child2{
+    grid-area: child2;
+    grid-area:2/1/3/5;
+} 
+
+.child3{
+    grid-area: 2/5/3/13;
+}
+
+.child4{
+    grid-area: 3/5/4/13;
+}

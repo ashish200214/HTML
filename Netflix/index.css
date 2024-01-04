@@ -1,0 +1,30 @@
+.img-container{
+    display: block;
+    flex-direction: column;
+    margin-top: 0px;
+    max-width: 100%;
+    margin: 0px;
+    
+}
+.bg-img{
+    max-width: 100%;
+    align-items: stretch;
+    position: relative;
+    margin-top: 0px;
+
+}
+
+.logo{
+    
+    max-width: 200px;
+    position: relative;
+    display: inline-block;
+    
+
+    bottom: 825px;
+    
+}
+
+.img-container .logo-div{
+    align-self: flex-start;
+}

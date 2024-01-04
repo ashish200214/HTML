@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    border: 1px solid black;
+    width: 80vw;
+    height: auto;
+    margin: 1rem auto;
+    grid-template-columns: auto auto auto;
+
+}
+
+.child{
+    border: 1px solid black;
+    margin: 0.5em;
+    width: 15em;
+}
+
+.child img{
+    width: 10em;
+    height:10em;
+    
+}
+
+.button-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 5em;
+    
+}
+
+button{
+    display: block;
+    margin: 0.5em;
+    margin-left:1.5em ;
+    
+
+}
+
+img{
+    display: block;
+    margin: 1px auto;
+}
